@@ -72,57 +72,45 @@ export const personalInfo = [
     description: "Muhammad Aiman",
   },
 
-  // {
-  //   id: 2,
-  //   title: 'Last Name : ',
-  //   description: 'Milner',
-  // },
-
   {
-    id: 3,
+    id: 2,
     title: "Age : ",
     description: "23 Years",
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Nationality : ",
     description: "Malaysian",
   },
 
   {
-    id: 5,
+    id: 4,
     title: "Freelance : ",
     description: "Available",
   },
 
   {
-    id: 6,
+    id: 5,
     title: "Address : ",
     description: "Kuala Lumpur",
   },
 
   {
-    id: 7,
+    id: 6,
     title: "Phone : ",
     description: "+60172086856",
   },
 
   {
-    id: 8,
+    id: 7,
     title: "Email : ",
     description: "aimanrazali909@gmail.com",
   },
 
-  // {
-  //   id: 9,
-  //   title: 'Skype : ',
-  //   description: 'steve.milner',
-  // },
-
   {
-    id: 10,
-    title: "Skillss : ",
+    id: 8,
+    title: "Skills : ",
     description: "Malay, English",
   },
 ];
