@@ -354,7 +354,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: '<a target = "__blank" href="https://aimanrazali-weather-app.netlify.app//">Weather App</a>',
+        desc: '<a target = "__blank" href="https://aimanrazali-weather-app.netlify.app/">Weather App</a>',
       },
     ],
   },
