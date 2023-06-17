@@ -17,12 +17,13 @@ import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
 
 import portfolioV1 from "./assets/portfolio/v1-portfolio.jpg";
-import dms from "./assets/portfolio/homepage.jpg"
+import dms from "./assets/portfolio/homepage.jpg";
 import diceChallenge from "./assets/portfolio/dice-game.jpg";
 import drumKit from "./assets/portfolio/drum-kit.jpg";
 import simonGame from "./assets/portfolio/simon-game-challenge.jpg";
 import toDOList from "./assets/portfolio/todo-list-v1.jpg";
 import newsletterSignup from "./assets/portfolio/newsletter-signup.jpg";
+import weatherapp from "./assets/portfolio/weather-app.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -332,8 +333,8 @@ export const portfolio = [
   },
   {
     id: 3,
-    img: diceChallenge,
-    title: "Dice Challenge",
+    img: weatherapp,
+    title: "Weather App",
     details: [
       {
         icon: <FiFileText />,
@@ -348,12 +349,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: "Skills : ",
-        desc: "HTML, CSS, JavaScript",
+        desc: "React, Tailwind CSS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "None",
+        desc: '<a target = "__blank" href="https://aimanrazali-weather-app.netlify.app//">Weather App</a>',
       },
     ],
   },
@@ -465,34 +466,33 @@ export const portfolio = [
       },
     ],
   },
-
-  // {
-  //   id: 8,
-  //   img: Work6,
-  //   title: "Photo Editing",
-  //   details: [
-  //     {
-  //       icon: <FiFileText />,
-  //       title: "Project : ",
-  //       desc: "Photo",
-  //     },
-  //     {
-  //       icon: <FiUser />,
-  //       title: "Client : ",
-  //       desc: "Dribble",
-  //     },
-  //     {
-  //       icon: <FaCode />,
-  //       title: "Skills : ",
-  //       desc: "Adobe Photoshop",
-  //     },
-  //     {
-  //       icon: <FiExternalLink />,
-  //       title: "Preview : ",
-  //       desc: "www.dibble.com",
-  //     },
-  //   ],
-  // },
+  {
+    id: 8,
+    img: diceChallenge,
+    title: "Dice Challenge",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "None",
+      },
+      {
+        icon: <FaCode />,
+        title: "Skills : ",
+        desc: "HTML, CSS, JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "None",
+      },
+    ],
+  },
 ];
 
 export const themes = [
