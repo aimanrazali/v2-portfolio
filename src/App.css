@@ -6,12 +6,23 @@
   /* ============ Colors ============ */
   /* Colors mode HSL (hue, saturation, lightness */
   --first-color: hsl(271, 76%, 53%);
-  --title-color: hsl(0, 0%, 40%);
+  --first-color: #64CCC5;
+
+  /* --title-color: hsl(0, 0%, 40%);
   --text-color: hsl(0, 0%, 50%);
   --body-color: hsl(0, 0%, 100%);
   --container-color: hsl(0, 0%, 93%);
-  --border-color: hsl(0, 0%, 87%);
-  --text-white: #fff;
+  --border-color: hsl(0, 0%, 87%); */
+
+  /* temporary for disable dark-light mode */
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 90%);
+  --body-color: hsl(0, 0%, 7%);
+  --container-color: hsl(0, 1%, 17%);
+  --border-color: hsl(0, 0%, 15%);
+  /* =================================== */
+
+  --text-white: #FFF;
 
   /* ============ Font and Typography ============ */
   --body-font: 'Open Sans', sans-serif;
@@ -76,6 +87,9 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/escheresque-dark.png"); */
+  /* background-image: url("https://images.unsplash.com/photo-1464014449614-e470468e3ec1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"); */
 }
 
 h1,

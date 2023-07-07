@@ -14,10 +14,10 @@
 }
 
 .home__data {
-    max-width: 600px;
+    max-width: 700px;
     margin-inline: auto;
-    padding-top: 20px;
-}
+    padding: 20px 0px;
+} 
 
 .home__title {
     position: relative;
@@ -44,6 +44,18 @@
 .home__description {
     line-height: 2.125;
     margin-block: 16px 32px;
+    padding: 20px;
+    /*the alpha value controls the transparency*/
+    background: rgba(255, 255, 255, 0.15);
+    /* This controls the blurring effect*/
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    /*Adding the shadow*/
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+    /* Adding our borders*/
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    z-index: 4;
 }
 
 .color__block {
@@ -51,6 +63,7 @@
     height: 200%;
     width: 100%;
     background-color: var(--first-color);
+    background-color: #176B87;
     top: -50%;
     left: -83%;
     transform: rotate(-15deg);

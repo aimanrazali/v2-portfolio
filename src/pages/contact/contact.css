@@ -1,5 +1,17 @@
 .contact__container {
     grid-template-columns: 4fr 8fr;
+    padding: 50px;
+    /*the alpha value controls the transparency*/
+    background: rgba(255, 255, 255, 0.15);
+    /* This controls the blurring effect*/
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    /*Adding the shadow*/
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+    /* Adding our borders*/
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    z-index: 4;
 }
 
 .contact__title {
@@ -77,7 +89,7 @@
     color: var(--title-color);
     width: 100%;
     padding: 12px 24px;
-    border-radius: 20px;
+    border-radius: 16px;
     font-size: var(--small-font-size);
     transition: all 0.3s ease;
 }

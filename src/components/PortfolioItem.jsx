@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import Close from "../assets/close.svg";
 import parse from "html-react-parser";
 
-{
-  /* eslint-disable-next-line react/prop-types */
-}
+
+// eslint-disable-next-line react/prop-types
 const PortfolioItem = ({ img, title, details }) => {
   const [modal, setModal] = useState(false);
 
@@ -13,6 +12,7 @@ const PortfolioItem = ({ img, title, details }) => {
   };
 
   return (
+    // TODO add animation
     <div className="portfolio__item">
       <img src={img} alt="" className="portfolio__img" />
 
