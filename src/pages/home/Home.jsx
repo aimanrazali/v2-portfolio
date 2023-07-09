@@ -8,18 +8,6 @@ import TypistAnimation from "../../components/TypistAnimation";
 
 const Home = () => {
 
-  /* used to change word every second */
-  // const [words, setWords] = useState(["Software", "Web", "Fullstack"]);
-  // const [currentWord, setCurrentWord] = useState(0);
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentWord((prevWord) => (prevWord + 1) % words.length);
-  //   }, 2000); 
-  //   return () => {
-  //     clearInterval(interval);
-  //   };
-  // }, [words]);
-
   return (
     // TODO Add glassmorphism effect
     <section className="home section grid">
@@ -27,10 +15,6 @@ const Home = () => {
 
       <div className="home__content">
         <div className="home__data">
-          {/* <h1 className="home__title">
-            <span>I'm Aiman.</span> <br />
-            {words[currentWord]} Developer
-          </h1> */}
           <TypistAnimation />
           <p className="home__description">
             Hey! My name is Muhammad Aiman, a software engineering student in my
