@@ -7,21 +7,34 @@ import "./home.css";
 import TypistAnimation from "../../components/TypistAnimation";
 
 const Home = () => {
-
   return (
     // TODO Add glassmorphism effect
     <section className="home section grid">
+      {/* TODO Add react spinner */}
       <img src={Profile} alt="" className="home__img" />
 
       <div className="home__content">
         <div className="home__data">
           <TypistAnimation />
           <p className="home__description">
-            Hey! My name is Muhammad Aiman, a software engineering student in my
-            final year at International Islamic University Malaysia pursuing a
-            degree in Computer Science with a major in Software Engineering.
-            Currently, I'm gaining valuable industry experience as a software
-            engineering intern at Dynasty Gaming & Media.
+            Hello! I'm Muhammad Aiman, a dynamic Software Engineering student in
+            the final year at International Islamic University Malaysia. My
+            academic focus lies in Computer Science with a major in Software
+            Engineering.
+            <br />
+            Currently, I am gaining practical industry exposure through an
+            internship at{" "}
+            <a href="https://www.dynasty-esports.com/">
+              Dynasty Gaming & Media
+            </a>
+            . This experience has allowed me to apply my academic knowledge to
+            real-world software development scenarios.
+            <br />
+            My portfolio website offers a glimpse into my academic journey and
+            practical experiences.
+            <br />
+            Thank you for visiting, and I'm excited to connect with like-minded
+            individuals who share a passion for cutting-edge software solutions.
           </p>
 
           <Link to="/about" className="button">

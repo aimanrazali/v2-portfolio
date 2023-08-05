@@ -12,6 +12,7 @@ const TypistAnimation = () => {
             " Software Developer ",
             " Web Developer ",
             " Software Engineer ",
+            " MERN Stack Developer ",
           ]}
         />
       </h1>

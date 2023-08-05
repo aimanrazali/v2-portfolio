@@ -191,7 +191,6 @@ export const resume = [
       "Center Foundation of Studies, Engineering <br /> <span> International Islamic University Malaysia </span>",
     desc: "",
   },
-
   // {
   //   id: 6,
   //   category: "education",

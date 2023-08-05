@@ -6,7 +6,8 @@
   /* ============ Colors ============ */
   /* Colors mode HSL (hue, saturation, lightness */
   --first-color: hsl(271, 76%, 53%);
-  --first-color: #64CCC5;
+  /* --first-color: #64CCC5; */
+  --first-color: #6F61C0;
 
   /* --title-color: hsl(0, 0%, 40%);
   --text-color: hsl(0, 0%, 50%);
