@@ -66,6 +66,12 @@ export const links = [
   },
 ];
 
+const age = () => {
+  const currentYear = new Date().getFullYear();
+  const birthYear = 2000;
+  return `${currentYear - birthYear} Years`;
+};
+
 export const personalInfo = [
   {
     id: 1,
@@ -76,7 +82,9 @@ export const personalInfo = [
   {
     id: 2,
     title: "Age : ",
-    description: "23 Years",
+    // description: "23 Years",
+    description: age(),
+
   },
 
   {
@@ -94,13 +102,13 @@ export const personalInfo = [
   {
     id: 5,
     title: "Address : ",
-    description: "Kuala Lumpur",
+    description: "Setapak, Kuala Lumpur",
   },
 
   {
     id: 6,
     title: "Phone : ",
-    description: "+60172086856",
+    description: "+6017-208 6856",
   },
 
   {
@@ -111,7 +119,7 @@ export const personalInfo = [
 
   {
     id: 8,
-    title: "Skills : ",
+    title: "Languages : ",
     description: "Malay, English",
   },
 ];
@@ -147,14 +155,22 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "March 2023 - PRESENT",
+    year: "October 2023 - PRESENT",
+    title:
+      "Backend Developer <br /> <span> MNRB Holdings Berhad Sdn. Bhd. </span>",
+    desc: "Skills: <br /> <span> NestJS · PostgreSQL · Swagger API · Insomnia · Postman API · DBeaver <span/>",
+  },
+  {
+    id: 2,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "March 2023 - September 2023",
     title:
       "Backend Developer Intern <br /> <span> Dynasty Gaming & Media </span>",
     desc: "Skills: <br /> <span> MongoDB · Node.js · npm · Git BASH · Postman API · Bitbucket · Jira <span/>",
   },
-
   {
-    id: 2,
+    id: 3,
     category: "experience",
     icon: <FaBriefcase />,
     year: "June 2019 - August 2019",
@@ -162,28 +178,25 @@ export const resume = [
       "Maintenance Assistant <br /> <span> ZincAlu Casting Sdn. Bhd. </span>",
     desc: "",
   },
-
   {
-    id: 3,
+    id: 4,
     category: "experience",
     icon: <FaBriefcase />,
     year: "May 2018 - August 2018",
     title: "IPQC Clerk <br /> <span> ZincAlu Casting Sdn. Bhd. </span>",
     desc: "Skills: <br /> <span> Microsoft Excel </span>",
   },
-
-  {
-    id: 4,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "September 2019 - PRESENT",
-    title:
-      "Bachelor's Degree, Software Engineering <br /> <span> International Islamic University Malaysia </span>",
-    desc: "Grade: <br/> <span>Current CGPA: 3.77 </span>",
-  },
-
   {
     id: 5,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "September 2019 - November 2023",
+    title:
+      "Bachelor's Degree, Software Engineering <br /> <span> International Islamic University Malaysia </span>",
+    desc: "CGPA: <span> 3.79 </span>",
+  },
+  {
+    id: 6,
     category: "education",
     icon: <FaGraduationCap />,
     year: "September 2018 - May 2019",

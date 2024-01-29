@@ -8,10 +8,11 @@ const TypistAnimation = () => {
         <span>I'm Aiman.</span> <br />
         <ReactRotatingText
           items={[
-            " Fullstack Developer ",
-            " Software Developer ",
-            " Web Developer ",
             " Software Engineer ",
+            " Software Developer ",
+            " Back End Developer ",
+            " Web Developer ",
+            " Fullstack Developer ",
             " MERN Stack Developer ",
           ]}
         />
